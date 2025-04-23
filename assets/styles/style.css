@@ -1,20 +1,31 @@
+:root {
+    --text-light: #394150;
+    --text-dark: #20293A;
+    --text-accent: #7C19EE;
+    --main-background: #FAFAF9;
+    --card-background: #FFF;
+    --accent-background: #F2EAFD;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     height: 100vh;
-  }
+    font-family: "Sora", sans-serif;
+    font-size: 0.875rem;
+}
 
-  .author-info {
+.author-info {
     font-size: 14px;
     text-align: center;
     margin-top: 16px;
     color: rgb(55, 65, 81);
-  }
+}
 
-  .author-info a {
+.author-info a {
     text-decoration: none;
-  }
+}
